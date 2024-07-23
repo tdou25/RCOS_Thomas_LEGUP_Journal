@@ -1,8 +1,13 @@
 RCOS LEGUP Journal
+
 By: Thomas Dou
+
 7/23/24
 
+
 The purpose of this repository is to retroactively create a journal of my learning process when joining LEGUP at the beginning of the semester, as well as to explain my lack of commits between the week of 6/4 (the day of small group meeting) and the mid-year commit summary.
+
+Entries will be added in ~2 day intervals to emulate the time between when they would have been committed during the first few weeks.
 
 Entries to this "journal" will take the form of plain-text files and will be titled in the following format:
 
@@ -20,4 +25,5 @@ Learn more here: https://homepages.hass.rpi.edu/heuveb/Research/GL/index.html
 
 
 Sincerely,
+
 Thomas
