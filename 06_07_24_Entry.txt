@@ -1,0 +1,17 @@
+Entry 6/7/24
+
+Today, I further explored the options for what to do as far as rules. I searched online what kind of 
+techniques there are for solving Sudoku puzzles.
+
+I found a few online. The one that caught my eye was the X-Wing rule. The X-Wing rules involves 
+a user finding four squares on a Sudoku board such that they form a rectangle. By deduction, the
+user must be sure that one number must occur in one of the two squares in each column and each row 
+that the rectangle edges are line segments of. This ensures that there are two configurations of placing numbers on the rectangle vertexes and the two configurations form an X.
+
+Other rules that I never got around to implementing:
+	- Y-wing
+	- Jellyfish
+
+
+Beyond brainstorming rules, I further explored the LEGUP framework. I worked on grasping how the 
+case rules work. Before this day I didn't realize case rules created board states for every valid "case". I thought at the time this may prove valuable in 
