@@ -1,0 +1,29 @@
+Entry 6/4/24
+
+During the first small group meeting, we met with Dr. Bram, the sort of "customer" of our project.
+Dr. Bram explained the overall purpose of LEGUP: to teach students in formal logic courses formal
+proofs using grid puzzles as a medium.
+
+Basic anatomy of the LEGUP puzzle interface:
+
+- Grid
+	- Primary interface for seeing game board states. Most games have several types of placeable 
+	tiles
+
+- Proof interface
+	- Takes the form of a directed acyclic graph (DAG). 
+	- A specific state of a board is stored in each node of the DAG, and each edge is a 
+	transition rule (more on this later). 
+	- The root node contains a black board.
+	- To solve a puzzle, the user must find every possible correct solution. This is checked in 
+	the LEGUP backend.
+
+-Proof rules
+	- Proof rules are found in the rule selection interface. 
+	- Rules are divided up into 3 types: 
+		- Direct rules (that justify a transition from one board state to another)
+		- Case rules (when used, generate all valid board-state nodes)
+		- Contradiction rules (when a board contains a contradiction that violates the
+		parameters of the game, these are used and end that branch of the tree.
+
+This week I volunteered to work on Sudoku. I was not sure what rules I wished to implement.

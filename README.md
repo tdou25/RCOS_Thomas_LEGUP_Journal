@@ -23,7 +23,4 @@ LEGUP is one such project. LEGUP (or Logic Engine for Grid-Using Puzzles) is the
 Learn more here: https://homepages.hass.rpi.edu/heuveb/Research/GL/index.html
 
 
-
-Sincerely,
-
-Thomas
+- Thomas
