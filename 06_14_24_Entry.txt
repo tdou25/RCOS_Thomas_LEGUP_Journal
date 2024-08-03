@@ -1,0 +1,32 @@
+Entry 6/11/24
+
+Today I mostly analyzed how to represent X-Wing within the flow of LEGUP code.
+
+One thing to consider is what type of rule X-Wing would be:
+    - If X-Wing would be difficult to represent as a direct rule (a transition that 
+    justifies a singular change between the parent and child board state nodes). One 
+    suggestion by another member of the team is to create two direct rules that interact
+    somehow, but this would be difficult.
+
+    - X-Wing is definitely not a contradiction rule (a rule that searches for a state
+    that violates a core parameter of the game and thus indicates a "losing" board state
+    leaf node)
+
+    - X-Wing would probably be a case rule (rule that generates several possible board states 
+    from one abstract rule). X-Wing would most likely result in two board states, one for each 
+    line in the X shape
+
+Another thing to consider is how extensively should X-wing be implemented:
+    - The full functionality version would have to have support for annotations. Part 
+    of X-Wing's strength is its ability to eliminate the possibility of a given number
+    to appear in any of the other spots in the rows/columns of that the rectangle edges 
+    are a part of. 
+        - This is not that feasable. A new class for "auxilliary" tiles would be needed.
+
+    - The alternative is to only model the X generating ability of it.
+        - This would also be difficult. Selecting regions is already weirdly represented in 
+        sudoku, and representing the rule this way would require us to select two different
+        relevent regions.
+
+I did implement a dummy class this week and I was able to see it in the LEGUP interface, which
+was cool.
