@@ -1,0 +1,19 @@
+Entry 6/11/24
+
+I mostly spent today trying to full understand what implementing the X-Wing rule would
+entail withint he LEGUP framework for Sudoku.
+
+There are some challenges inherent to LEGUP and its ability to support such "rules" or 
+represent such techniques as rules.
+One is how complex techniques like X-Wing should be implemented, as due to the DAG structure of
+LEGUP proofs, one board state node can't in any capacity "access" information about another node.
+
+See the 6/7 entry for more information on how X-Wing works, or watching this video:
+https://www.youtube.com/watch?v=r1G_Bph8jXk
+
+
+There may be some workarounds:
+- one might be implementing support for annotations.
+- another may be implementing representing X-Wing in a weaker form. 
+
+Each of these come with their own challenges (that, spoiler alert, prevent the support of X-Wing in LEGUP)
