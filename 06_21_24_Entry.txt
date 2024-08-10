@@ -1,0 +1,12 @@
+Entry 6/21/24
+
+Today, I continued trying to implement the X-Wing rule (keyword: trying).
+
+After examining the code and how the abstract rule classes are implemented, I've 
+come to the conclusion that adding support for multiple transition selects would be 
+too difficult and disruptive to the LEGUP backened to implement. 
+
+It took the intervention of Dr. Bram himself to come to this conclusion, and I 
+guess the customer is always right. 
+
+I've decided to pivot to implementing the puzzle maker for Sudoku.
