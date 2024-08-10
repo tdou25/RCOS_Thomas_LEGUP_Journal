@@ -1,0 +1,19 @@
+Entry 6/18
+
+This day, I began seriously exploring how I would go about integrating an X-Wing 
+case rule. I started by adding a dummy rule that was just another case rule 
+but cosmetically different, with a different name and a different description.
+
+Reminder: case rules create every possible board based on one pattern.
+
+There are several abstract methods that have to be implemented with case rules, 
+one of these is checkRuleRawAt that takes as input the transition (edge) and the
+present board state (node). Other functionality like actually generating the board 
+needs to be acomplished as well.
+
+One thing that may end up limiting the implementation of X-Wing is the requirement
+of a transition. Sudoku transitions are weird anyways, most case rules creatively
+use the board, asking for position on the x-axis for location and position on the 
+y-axis for number of value. X-Wing may require us to request two transitions, which 
+may be difficult. 
+
